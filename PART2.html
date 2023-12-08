@@ -1,0 +1,126 @@
+<html>
+<head>
+      <title>WEBSITE</title>
+<meta name="viewport" content="width=device-width
+initial-scale=1.0">
+<style>
+.container{ display:grid;
+          grid-template-columns: 1fr 3fr 1fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+		  border:5px dashed blue;
+}
+.header{ background:red;
+         font-size:50px;
+		 text-align:center;
+		 grid-column:span 3;
+		 
+}
+.nav{ background:cyan;
+       font-size:25px;
+	   text-align:center;
+}
+.main{ background:yellow;
+       font-size:25px;
+	   text-align:center;
+	   padding:50px
+	  
+}
+.aside{ background:magenta;
+       font-size:25px;
+	   text-align:center;
+}
+.footer{ background:orange;
+       font-size:25px;
+	   text-align:center;
+	   grid-column:span 3;
+}
+@media  only screen and (max-width:600px){
+	     .container{ display:grid;
+          grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+}
+.header{ background:red;
+         font-size:30px;
+		 text-align:center;
+		 grid-column:span 3;
+}
+.nav{ background:cyan;
+       font-size:;
+	   text-align:center;
+}
+.main{ background:yellow;
+       font-size:15px;
+	   text-align:center;
+	  grid-column:span 2;
+}
+.aside{ background:magenta;
+       font-size:em;
+	   text-align:center;
+	    grid-column:span 3;
+}
+.footer{ background:orange;
+       font-size:em;
+	   text-align:center;
+	   grid-column:span 3;
+}
+       }
+@media  only screen and (max-width:300px){
+	     .container{ display:grid;
+		  grid-template-rows:1fr 1fr 3fr 1fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+}
+.header{ background:red;
+         font-size:10px;
+		 text-align:center;
+		 grid-column:span 3;
+}
+.nav{ background:cyan;
+       font-size:em;
+	   text-align:center;
+	   grid-column:span 3;
+}
+.main{ background:yellow;
+       font-size:8px;
+	   text-align:center;
+	  grid-column:span 3;
+}
+.aside{ background:magenta;
+       font-size:em;
+	   text-align:center;
+	    grid-column:span 3;
+}
+.footer{ background:orange;
+       font-size:em;
+	   text-align:center;
+	   grid-column:span 3;
+}
+       }
+</style>
+</head>
+<body>
+  <div class=container>
+     <div class=header>GET TO KNOW ME</div>
+     <div class=nav>
+	 <ul>
+      <li><a href="PART1.html">ABOUT MYSELF/ME</a></li>
+      <li><a href="MAJORPT2_TECSON.html">GO BACK TO FRONT PAGE</a></li>
+      <li><a href="PART3.html">FAVORITES</a></li>
+     </ul>
+	 </div>
+     <div class=main>As we all know, each of us has different skills and hobbies we do in our daily life
+	   <br> I personally enjoy playing guitar sometimes since I listen to 80s music and 2000s music
+	   <br> I listen to bands like Guns N Roses. I also like to watch movies like action movies, hero and villain movies<br>
+	   and many more.I also know how to do metalworks,wood working and other stuff. I also like Dragonball, Star Wars and Marvel.<br>
+	   I play games but not that much anymore.
+	 </div>
+	 <div class=aside>ASIDE</div>
+	 <div class=footer>FOOTER</div>
+
+</div>
+</body>
+</html>
